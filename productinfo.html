@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>产品详细说明</title>
+	<script type="text/javascript" src="js/data.js"></script>
+	<script type="text/javascript" src="images/jquery-1.4.1.js"></script>
+	<script type="text/javascript" src="images/jquery-1.4.1.min.js"></script>
+	<script type="text/javascript" src="js/basic.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/ys.css">
+	<style type="text/css"></style>
+</head>
+<body>
+	<div class="containter">
+		<!-- 网站头部 -->
+		<div class="pagetop" style="position: relative;">
+			<div class="indexlogo"><img src="images/logo.gif"></div>
+			<div class="topinfo">
+				<span>您好，欢迎登陆麦子商城！要购物？<a href="login.html">请登录</a> 新用户？<a href="zhuce.html">请免费注册</a></span>
+			</div>
+			<div class="topmav" style="position:absolute; left: 600px; top: 0px;">
+				<div class="topmavlist">
+					<ul>
+						<li><a href="">帮助中心|</a></li>
+						<li><a href="">客户反馈|</a></li>
+						<li><a href="">网站地图|</a></li>
+						<li><a href="">加入收藏|</a></li>
+						<li style="width: 200px;"><span id="show"></span></li>
+					</ul>
+				</div>
+				<div>
+					<marquee direction="up" hight="25px" scrollamount=1 scrolldelay=10 style="text-indent: 40px;"><a href="huodong.html">最新公告：明天有秒杀活动!</a></marquee>
+				</div>
+			</div>
+			<!-- 主导航 -->
+			<div id="nav" style="clear: both;">
+				<div style="background: url(images/top_1.gif);height: 36px;">
+					<ul class="navlist" >
+						<li><a href="#">网站首页 |</a></li>
+						<li><a href="#">分类导航 |</a></li>
+						<li><a href="#">品牌导航 |</a></li>
+						<li><a href="#">购物帮助 |</a></li>
+						<li><a href="#">新闻资讯 |</a></li>
+						<li><a href="#">报价单 |</a></li>
+						<li><a href="#">发货单 |</a></li>
+					</ul>
+				</div>
+				<div style="background: url(images/top_2.gif);height: 32px;text-align: left; text-indent: 25px; position: relative;">
+					<span style="color:#fff; font-size: 14px;">商品搜索</span><span><select style="height: 23px;"><option>所有分类</option><option>最新商品</option><option>热卖商品</option></select></span>
+					<span><input type="text" maxlength="50" size="50" style="height: 18px;"><input type="button" value="搜 索" style="margin-left: 5px; border-radius: 3px;"></span>
+					<div class="goshop">
+					<span style=" position: absolute;top: 5px;left: 10px; font-size: 10px;"><a href="gouwu.html" style="color: #000;text-decoration: none;">购物车暂时为空</a></span>
+					<span style="position: absolute;top: 5px;left: 150px; font-size: 10px;"><a href="gouwu.html" style="color: #000;text-decoration: none;">去结算</a></span>
+					<span style="position: absolute;top: 5px;
+					left: 220px; font-size: 10px;"><a href="gouwu.html" style="color: #000;text-decoration: none;">用户中心</a></span>
+				</div>
+				</div>
+				
+			</div>
+		</div>
+		<!-- 网站中间部分 -->
+		<div class="pagebody">
+			<!-- 中间左部 -->
+			<div class="bleft">
+				<div id="userbox" class="userbox">
+					<h3>用户信息</h3>
+					<ul>
+						<li style="background: url(images/user/1.gif) no-repeat center left;">
+							<a href="#">注册/登录</a>
+						</li>
+						<li style="background: url(images/user/8.gif) no-repeat left center;">
+							<a href="#">购物车（0）</a>
+						</li>
+						<li style="background: url(images/user/10.gif) no-repeat left center;">
+							<a href="#">对比（0）</a>
+						</li>
+					</ul>
+				</div>
+				<div id="productbox" class="productbox">
+					<h3>商品分类</h3>
+					<div style="border-left: solid #d6290b 1px;border-right: solid #d6290b 1px;border-bottom: solid #d6290b 1px;">
+						<h4><img src="images/dot.gif">家用电器</h4>
+						<ul>
+							<li><a href="#">大 家 电 </a><span>|</span><a href="#">厨房电器</a></li>
+							<li><a href="#">汽车用品</a><span>|</span><a href="#">个人护理</a></li>
+							<li><a href="#">生活电器</a><span>|</span><a href="#">其他家电</a></li>
+						</ul>
+						<h4><img src="images/dot.gif">手机数码</h4>
+						<ul>
+							<li><a href="#">数码相机</a><span>|</span><a href="#">手机通讯</a></li>
+							<li><a href="#">时尚影音</a><span>|</span><a href="#">数码配件</a></li>
+							<li><a href="#">数码影像</a><span>|</span><a href="#">手机配件</a></li>
+						</ul>
+						<h4><img src="images/dot.gif">电脑产品</h4>
+						<ul>
+							<li><a href="#">笔 记 本 </a><span>|</span><a href="#">办公耗材</a></li>
+							<li><a href="#">电脑软件</a><span>|</span><a href="#">网络产品</a></li>
+							<li><a href="#">办公设备</a><span>|</span><a href="#">电脑整机</a></li>
+						</ul>
+						<h4><img src="images/dot.gif">日用百货</h4>
+						<ul>
+							<li><a href="#">玩具乐器</a><span>|</span><a href="#">个护化妆</a></li>
+							<li><a href="#">礼品箱包</a><span>|</span><a href="#">钟表首饰</a></li>
+						</ul>
+						<h4><img src="images/dot.gif">服装鞋帽</h4>
+						<ul>
+							<li><a href="#">运 动 鞋 </a><span>|</span><a href="#">女士服装</a></li>
+							<li><a href="#">男士服装</a><span>|</span><a href="#">运动装</a></li>
+						</ul>
+						<h4><img src="images/dot.gif">运动健康</h4>
+						<ul>
+							<li><a href="#">户外运动</a><span>|</span><a href="#">运动器材</a></li>
+							<li><a href="#">养生器械</a><span>|</span><a href="#">健康食品</a></li>
+							<span style="padding: 0 0 0 90px;color: #666;">所有分类>></span>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- 中部 -->
+			<div style="width: 780px; min-height: 400px;float: left; text-indent: 10px;margin-top: 10px;">
+				<!-- 中间头 -->
+				<div style="background: url(images/sort1.gif); line-height: 24px;">
+					<img src="images/home.gif" style="margin: 2px;">
+					<span>您的位置：</span>
+					<span><a href="index.html">首页</a></span>>>
+					<span><a href="index.html">家用电器</a></span>>>
+					<span><a href="index.html">生活电器</a></span>>>
+					<span>霍尼韦尔（Honeywell）5010-CHN空气净化器</span>
+				</div>
+				<!-- 产品详细部分 -->
+				<div style="padding: 10px 0 0 10px;">
+					<div id="proimgbox">
+						<div id="bigimgbox">
+							<img src="image/p2.jpg" width="300px" height="300px" id="bigimg" onmousemove="MMove()" onmouseout="hiddenobj('bigimgboxdiv')" />
+						</div>
+						<div id="smallimglist">
+							<div><img src="image/p2.jpg" id="p2" onmouseover="changeimgs();MiniDiv()"/></div>
+							<div><img src="image/p3.jpg" id="p3" onmouseover="changeimgs();MiniDiv()"/></div>
+							<div><img src="image/p4.jpg" id="p4" onmouseover="changeimgs();MiniDiv()"/></div>
+							<div><img src="image/p1.jpg" id="p1" onmouseover="changeimgs();MiniDiv()"/></div>
+						</div>
+					</div>
+					<div id="proinfolist" style="position: relative;">
+						<div id="title">
+							<span style="font-weight: bold;font-size: 16px;color: #000;">霍尼韦尔 5010-CHN空气净化器</span>
+							<span>(<a href="#">0篇评论</a>|<a href="#">写评论</a></span>)
+						</div>
+
+						<div>
+							<span style="font-weight: bold;">商品编号：</span>
+						</div>
+						<div>
+							<span style="font-weight: bold;">商品积分：</span>
+						</div>
+						<div>
+							<span>市场价格：</span>
+						</div>
+						<div>
+							<span style="font-weight: bold;">本站价格：</span>
+						</div>
+						<div>
+							<span style="font-weight: bold;">为您节省：</span>
+						</div>
+						<div>
+							<span style="font-weight: bold;">订购数量：</span><input type="text" name="sl">
+						</div>
+						<div style="text-align: center;">
+							<a href="#"><img src="images/buy.gif"></a>
+							<a href="#"><img src="images/duibi.gif"></a>
+							<a href="#"><img src="images/shoucang.gif"></a>
+						</div>
+						<!-- 放大镜盒子 -->
+						<div id="bigimgboxdiv" style="display: none; position: absolute;top: 20px;border: 1px solid #ccc;width: 300px;height: 300px;overflow: hidden;"><img id="targetImg" src="image/p2.jpg" width="800px" height="800px">
+						</div>
+
+					</div>
+
+				</div>
+				
+			</div>
+			<div>
+			<!-- 广告部分 -->
+				<div style="height: 40px;line-height: 40px; border-top: solid 1px #ccc; margin-top: 20px;">
+					<a href="#">下一个商品  美的（电脑版）双胆锅</a>
+					<span style="margin-left: 200px;margin-right: 10px;margin-top: 30px;">
+						<a href="#"><img src="images/pay/alipay_buy.gif"></a>
+					</span>
+					<span style="margin-top: 30px;">
+						<a href="#"><img src="images/pay/paypal_buy.gif"></a>
+					</span>
+				</div>
+			</div>
+			<div>	
+			
+				<div id="proinfotitle">
+					<div onmouseover="showdivbox(1)">
+						<a href="#">详细说明</a>
+					</div>
+					<div onmouseover="showdivbox(2)">
+						<a href="#">相关商品</a>
+					</div>
+					<div onmouseover="showdivbox(3)">
+						<a href="#">商品评论</a>
+					</div>
+					<div onmouseover="showdivbox(4)">
+						<a href="#">付款方式</a>
+					</div>
+					<div onmouseover="showdivbox(5)">
+						<a href="#">送货上门</a>
+					</div>
+				</div>
+				<div id="info1" class="proinfobox" >
+				   详细说明
+				详细说明详细说明详细说明详细说明详细说明详细说明详细说明详细说明详细说明详细说明详细说明详细说明详细说明详细说明详细说明详细说明详细说明详细说明详细说明详细说明详细说明详细说明详细说明详细说明详细说明详细说明详细说明详细说明详细说明详细说明详细说明详细说明
+				</div>
+				<div id="info2" class="proinfobox" style="display: none;">
+				相关商品相关商品相关商品相关商品相关商品相关商品相关商品
+				</div>
+				<div id="info3" class="proinfobox" style="display: none;">
+				商品评论商品评论商品评论商品评论商品评论商品评论
+				</div>
+				<div id="info4" class="proinfobox" style="display: none;">
+				付款方式付款方式付款方式付款方式付款方式付款方式付款方式
+				</div>
+				<div id="info5" class="proinfobox" style="display: none;">
+				送货上门送货上门送货上门送货上门送货上门送货上门送货上门
+				</div>
+			</div>
+			
+		
+		<!-- 网站脚部 -->
+		<div class="pagefooter">
+			<div class="footnav" >
+				<ul style="margin-left: 100px;">
+					<li class="listnav">
+						<h4>关于我们</h4>
+						<ul>
+							<li><a href="#">发展经历</a></li>
+							<li><a href="#">企业介绍</a></li>
+							<li><a href="#">发展经历</a></li>
+							<li><a href="#">企业技术</a></li>
+						</ul>
+					</li>
+					<li class="listnav">
+						<h4>付款方式</h4>
+						<ul>
+							<li><a href="#">发展经历</a></li>
+							<li><a href="#">企业介绍</a></li>
+							<li><a href="#">发展经历</a></li>
+							<li><a href="#">企业技术</a></li>
+						</ul>
+					</li>
+					<li class="listnav">
+						<h4>送货方式</h4>
+						<ul>
+							<li><a href="#">发展经历</a></li>
+							<li><a href="#">企业介绍</a></li>
+							<li><a href="#">发展经历</a></li>
+							<li><a href="#">企业技术</a></li>
+						</ul>
+					</li>
+					<li class="listnav">
+						<h4>关于我们</h4>
+						<ul>
+							<li><a href="#">发展经历</a></li>
+							<li><a href="#">企业介绍</a></li>
+							<li><a href="#">发展经历</a></li>
+							<li><a href="#">企业技术</a></li>
+						</ul>
+					</li>
+					<li class="listnav">
+						<h4>关于我们</h4>
+						<ul>
+							<li><a href="#">发展经历</a></li>
+							<li><a href="#">企业介绍</a></li>
+							<li><a href="#">发展经历</a></li>
+							<li><a href="#">企业技术</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,257 @@
+/*首页样式*/
+h1,h2,h3,h4,h5,h6,img,body{
+		padding: 0;
+		margin: 0;
+	}
+	.containter{
+		width: 980px;
+		margin: 0px auto;
+		font-size: 10px;
+	}	
+	.pagetop{
+		min-height: 71px;
+		border:#0c6 solid 1px;
+	}
+	.indexlogo{
+		width: 220px;
+		height: 60px; 
+		float: left;
+	}
+	.topinfo{
+		width: 360px;
+		float: left;
+		line-height:50px;
+	}
+	.topmav{
+		width: 500px;
+		left: 
+	}
+	
+	.topmavlist{}
+	.topmavlist ul{
+		list-style: none;
+	}
+	.topmavlist ul li{
+		display: inline-block;
+		width: 55px;
+	}
+	.topmavlist ul li a{
+		text-decoration: none;
+		color: #666;
+	}
+	#nav{
+		text-align: center;
+	}
+	#nav ul{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	#nav ul li{
+		width: 80px;
+		font-size: 16px;
+		line-height: 36px;
+		font-weight: bold;
+		display: inline-block;
+		text-align: center;
+	}
+	#nav ul li a{
+		text-decoration: none;
+		color: #fff;
+	}
+	.goshop{
+		position: absolute;
+		width: 305px;
+		height: 24px;
+		background: url(../images/d3.jpg) no-repeat;
+		top: 0px;
+		left: 660px;
+		}
+	.pagebody{
+		min-height: 625px;
+	}
+	.pagefooter{
+		min-height: 100px;
+		border:red solid 1px;
+		clear: both;
+	}
+	.bleft{
+		width: 195px;
+		min-height: 600px;
+		float: left;
+	}
+	.userbox{
+		margin: 5px auto;
+	}
+	.userbox h3{
+		width: 195px;
+		height: 30px;
+		line-height: 30px;
+		background: url(../images/la_7.gif);
+		text-align: center;
+		font-size: 16px;
+		color: #fff;
+	}
+	.userbox ul{
+		margin: 0;
+		padding: 0;
+		border-left: solid #F00 1px;
+		border-right: solid #F00 1px;
+		border-bottom: solid #F00 1px;
+		list-style: none;
+		padding-left: 20px;
+	}
+	.userbox ul li{
+		line-height: 24px;
+		text-indent: 30px;
+	}
+	.userbox ul li a{
+		text-decoration: none;
+		color: #333;
+	}
+	.productbox{
+		margin: 5px auto;
+	}
+	.productbox h3{
+		width: 195px;
+		height: 30px;
+		line-height: 30px;
+		background: url(../images/la_7.gif);
+		text-align: center;
+		font-size: 16px;
+		color: #fff;
+	}
+	.productbox h4{
+		color: #d6290b;
+		font-size: 14px;
+		text-indent: 20px;
+	}
+	.productbox ul{
+		padding: 0;
+		margin-bottom:10px;
+		list-style: none;
+	}
+	.productbox ul li{
+		margin: 0;
+		padding:0;
+		text-indent: 40px;
+	}
+	.productbox ul li span{
+		margin: 0 10px;
+	}
+	.productbox ul li a{
+		color: #666;
+		text-decoration: none;
+		font-size: 12px;
+		line-height: 25px;
+	}
+	.bmiddle{
+		width: 582px;
+		border:solid #6FF 1px;
+		min-height: 600px;
+		float: left;
+	}
+	.fl{float: left;}
+	.fr{float: right;}
+	.cb{clear: both;}
+	ul{list-style: none;}
+	.lunbo{width: 730px;height: 458px;overflow: hidden;position: relative;margin: 0 auto;padding: 0; left: 0px;top: 0px;}
+	.lunbo img{float: left;}
+	.box{width: 5110px}
+	.btn{width: 100%;height: 100px;position: absolute;top: 40%;display: none;}
+	.lunbo .btn-l,.lunbo .btn-r{background-color: rgba(249,38,114,0.5);width: 50px;height: 100px;font-size: 82px;color: #ccc;border-radius: 10px;}	
+	.list-li{position: absolute;bottom: 10px;left: 20%}
+	.list-li li{float: left;width: 50px;height: 50px;background-color: #F9263E;line-height: 50px;text-align: center;border-radius: 50%;margin-left: 10px;color: #fff;font-size: 22px;}
+	/* 	点缀 */
+	.dianzui{width: 100%;height: 4px;background-color: #ccc;position: absolute;bottom: 0px}
+	.dian{width: 1px;height:4px;background-color: red }
+	/* 遮罩层 */
+	.fugai{position: absolute;left: 0;top: 0;height: 100%;width: 730px;
+		}
+	.fugai1,.fugai2,.fugai3{width: 243px;height: 730px;float: left;z-index: 999;overflow: hidden;}
+	.btn-con-l,.btn-con-r{width: 150px;height: 100px;}
+	.btn-con-l img,.btn-con-r img{width: 100%;height: 100%}
+	.productbox2 {width: 730px;height: 290px;}
+	.productbox2 h3{
+		width: 730px;
+		height: 30px;
+		line-height: 30px;
+		background: url(../images/ca_1.gif) no-repeat;
+		padding-left: 20px;
+		font-size: 16px;
+		color: #fff;
+	}
+	.productbox2 ul{
+		list-style: none;
+	}
+	.productbox2 ul li{
+		display: inline-block;
+	}
+	.productbox2 ul li div{
+		margin: 0px 2px;
+		text-align: center;
+	}
+	.productbox2_font{}
+	.footnav{background: url(../images/copy_line.gif);height: 126px;}
+	.footnav ul{margin: 0; padding:0;list-style: none;text-align: center;}
+	.footnav ul h4{font-weight: bold;text-align: left;margin-top: 10px;}
+	.footnav ul .listnav{display: line-block;width: 150px;float: left;}
+	.footnav .listnav ul{}
+	.footnav .listnav ul li{line-height: 20px;background: url(../images/dot.gif) center left no-repeat;text-indent: -80px;}
+	.footnav .listnav ul li a{text-decoration: none;}
+	/*产品列表样式*/
+	.subnavlist{}
+	.subnavlist span{font-weight: bold;}
+	.subnavlist ul{list-style: none;margin: 0;padding: 0;}
+	.subnavlist ul li{display: inline-block;width: 100px;text-align: center;}
+	.subnavlist ul li a{color: gray;text-decoration: none;float: right; }
+	.list{border: 1px solid #ccc;}
+	.tablist{background: url(../images/sortbg.jpg);}
+	.tablist a{border-left: 1px solid #e1e1e1;border-right: 1px solid #e1e1e1;text-align: center;line-height: 26px;width: 80px;display: inline-block;text-decoration: none;color: #000;margin: 0px;}
+	.tablist a:hover{background: url(../images/sortbg1.jpg);}
+	.shopmass{margin: 15px;font-size: 16px;}
+	.shopmass a{text-decoration: none;color: #333;}
+	.cp{clear: both;}
+	/*产品详细信息样式*/
+	#proimgbox{width: 310px;height: 300px; float: left;}
+	#bigimgbox{}
+	#smallimglist{}
+	#smallimglist div{width: 60px;height: 60px;float: left;border: solid #999 1px;margin: 5px;} 
+	#smallimglist div img{width: 50px;height: 50px;}
+	#proinfolist{width: 445px;height: 300px;float: left;line-height: 20px;}
+   	#proinfolist span{font-size: 13px;}
+   	#proinfolist div{margin: 5px;}
+   	#proinfolist a{margin: 5px;}
+   	#title{text-align: center;}
+	#proinfolist input{width: 50px;height: 16px;}
+	#proinfotitle{
+		margin-top: 420px;
+		background-color:#fff;
+		line-height: 30px;
+		vertical-align: bottom; 
+	}
+	#proinfotitle div{
+		width: 80px;
+		height: 30px;
+		display: inline-block;
+		border: solid 1px #ccc;
+		border-bottom: none;
+		padding-top: 3px;
+		padding-left: 10px;
+		margin-left: 10px;
+	}
+	#proinfotitle div:hover{
+		background: #ccc;
+	}
+	#proinfotitle div a{
+		text-decoration: none;
+		color: #000;
+	}
+	.proinfobox{
+		border:solid 1px #ccc;
+		min-height: 270px;
+		margin-left: 10px;
+		border-top: none;
+		text-indent: 36px;
+		line-height: 24px;
+	}

@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>首页面</title>
+	<script type="text/javascript" src="js/data.js"></script>
+	<script type="text/javascript" src="images/jquery-1.4.1.js"></script>
+	<script type="text/javascript" src="images/jquery-1.4.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/ys.css">
+	<style type="text/css"></style>
+</head>
+<body>
+	<div class="containter">
+		<!-- 网站头部 -->
+		<div class="pagetop" style="position: relative;">
+			<div class="indexlogo"><img src="images/logo.gif"></div>
+			<div class="topinfo">
+				<span>您好，欢迎登陆麦子商城！要购物？<a href="login.html">请登录</a> 新用户？<a href="zhuce.html">请免费注册</a></span>
+			</div>
+			<div class="topmav" style="position:absolute; left: 600px; top: 0px;">
+				<div class="topmavlist">
+					<ul>
+						<li><a href="">帮助中心|</a></li>
+						<li><a href="">客户反馈|</a></li>
+						<li><a href="">网站地图|</a></li>
+						<li><a href="">加入收藏|</a></li>
+						<li style="width: 200px;"><span id="show"></span></li>
+					</ul>
+				</div>
+				<div>
+					<marquee direction="up" hight="25px" scrollamount=1 scrolldelay=10 style="text-indent: 40px;"><a href="huodong.html">最新公告：明天有秒杀活动!</a></marquee>
+				</div>
+			</div>
+			<!-- 主导航 -->
+			<div id="nav" style="clear: both;">
+				<div style="background: url(images/top_1.gif);height: 36px;">
+					<ul class="navlist" >
+						<li><a href="#">网站首页 |</a></li>
+						<li><a href="#">分类导航 |</a></li>
+						<li><a href="#">品牌导航 |</a></li>
+						<li><a href="#">购物帮助 |</a></li>
+						<li><a href="#">新闻资讯 |</a></li>
+						<li><a href="#">报价单 |</a></li>
+						<li><a href="#">发货单 |</a></li>
+					</ul>
+				</div>
+				<div style="background: url(images/top_2.gif);height: 32px;text-align: left; text-indent: 25px; position: relative;">
+					<span style="color:#fff; font-size: 14px;">商品搜索</span><span><select style="height: 23px;"><option>所有分类</option><option>最新商品</option><option>热卖商品</option></select></span>
+					<span><input type="text" maxlength="50" size="50" style="height: 18px;"><input type="button" value="搜 索" style="margin-left: 5px; border-radius: 3px;"></span>
+					<div class="goshop">
+					<span style=" position: absolute;top: 5px;left: 10px; font-size: 10px;"><a href="gouwu.html" style="color: #000;text-decoration: none;">购物车暂时为空</a></span>
+					<span style="position: absolute;top: 5px;left: 150px; font-size: 10px;"><a href="gouwu.html" style="color: #000;text-decoration: none;">去结算</a></span>
+					<span style="position: absolute;top: 5px;
+					left: 220px; font-size: 10px;"><a href="gouwu.html" style="color: #000;text-decoration: none;">用户中心</a></span>
+				</div>
+				</div>
+				
+			</div>
+		</div>
+		<!-- 网站中间部分 -->
+		<div class="pagebody">
+			<!-- 中间左部 -->
+			<div class="bleft">
+				<div id="userbox" class="userbox">
+					<h3>用户信息</h3>
+					<ul>
+						<li style="background: url(images/user/1.gif) no-repeat center left;">
+							<a href="#">注册/登录</a>
+						</li>
+						<li style="background: url(images/user/8.gif) no-repeat left center;">
+							<a href="#">购物车（0）</a>
+						</li>
+						<li style="background: url(images/user/10.gif) no-repeat left center;">
+							<a href="#">对比（0）</a>
+						</li>
+					</ul>
+				</div>
+				<div id="productbox" class="productbox">
+					<h3>商品分类</h3>
+					<div style="border-left: solid #d6290b 1px;border-right: solid #d6290b 1px;border-bottom: solid #d6290b 1px;">
+						<h4><img src="images/dot.gif">家用电器</h4>
+						<ul>
+							<li><a href="#">大 家 电 </a><span>|</span><a href="#">厨房电器</a></li>
+							<li><a href="#">汽车用品</a><span>|</span><a href="#">个人护理</a></li>
+							<li><a href="#">生活电器</a><span>|</span><a href="#">其他家电</a></li>
+						</ul>
+						<h4><img src="images/dot.gif">手机数码</h4>
+						<ul>
+							<li><a href="#">数码相机</a><span>|</span><a href="#">手机通讯</a></li>
+							<li><a href="#">时尚影音</a><span>|</span><a href="#">数码配件</a></li>
+							<li><a href="#">数码影像</a><span>|</span><a href="#">手机配件</a></li>
+						</ul>
+						<h4><img src="images/dot.gif">电脑产品</h4>
+						<ul>
+							<li><a href="#">笔 记 本 </a><span>|</span><a href="#">办公耗材</a></li>
+							<li><a href="#">电脑软件</a><span>|</span><a href="#">网络产品</a></li>
+							<li><a href="#">办公设备</a><span>|</span><a href="#">电脑整机</a></li>
+						</ul>
+						<h4><img src="images/dot.gif">日用百货</h4>
+						<ul>
+							<li><a href="#">玩具乐器</a><span>|</span><a href="#">个护化妆</a></li>
+							<li><a href="#">礼品箱包</a><span>|</span><a href="#">钟表首饰</a></li>
+						</ul>
+						<h4><img src="images/dot.gif">服装鞋帽</h4>
+						<ul>
+							<li><a href="#">运 动 鞋 </a><span>|</span><a href="#">女士服装</a></li>
+							<li><a href="#">男士服装</a><span>|</span><a href="#">运动装</a></li>
+						</ul>
+						<h4><img src="images/dot.gif">运动健康</h4>
+						<ul>
+							<li><a href="#">户外运动</a><span>|</span><a href="#">运动器材</a></li>
+							<li><a href="#">养生器械</a><span>|</span><a href="#">健康食品</a></li>
+							<span style="padding: 0 0 0 90px;color: #666;">所有分类>></span>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- 中间中部 -->
+			<div style="width:735px;height:750px;border:1px solid black;float: left;margin: 10px 0px 0px 10px;">
+			<div class="lunbo" >
+				<div class="fugai">
+					<div class="fugai1"></div>
+					<div class="fugai2"></div>
+					<div class="fugai3"></div>
+					<div class="cb"></div>
+				</div>
+
+				<div class="dianzui">
+					<div class="dian"></div>
+				</div>
+				<div class="box">
+					<img src="image/lunbo1.jpg">
+					<img src="image/lunbo2.jpg">
+					<img src="image/lunbo3.jpg">
+					<img src="image/lunbo4.jpg">
+					<img src="image/lunbo5.jpg">
+					<img src="image/lunbo6.jpg">
+					<img src="image/lunbo1.jpg">			
+				</div>
+				<div class="btn">
+					<div class="btn-l fl"><</div>
+					<div class="btn-con-l fl"></div>
+					
+					<div class="btn-r fr">></div>
+					<div class="btn-con-r fr">r</div>
+					
+
+				</div>
+
+				<ul class="list-li">
+					<li>1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+					<li>5</li>
+					<li>6</li>
+				</ul>
+			</div>
+			<div class="productbox2">
+				<h3>推荐商品</h3>
+				<div class ="productbox2_photo">
+					<div class="productbox2_font">
+						<ul>
+							<li><div><a href="#"><img src="image/p3.jpg" width="80px" height="80px;"></a></div>
+								<div>
+									<div>珀莱雅美白油</div>
+									<div>珀莱雅</div>
+									<div class="price">￥389.00</div>
+								</div>
+							</li>
+							<li><div><a href="#"><img src="image/p3.jpg" width="80px" height="80px;"></a></div>
+								<div>
+									<div>珀莱雅美白油</div>
+									<div>珀莱雅</div>
+									<div class="price">￥389.00</div>
+								</div>
+							</li>
+							<li><div><a href="#"><img src="image/p3.jpg" width="80px" height="80px;"></a></div>
+								<div>
+									<div>珀莱雅美白油</div>
+									<div>珀莱雅</div>
+									<div class="price">￥389.00</div>
+								</div>
+							</li>
+							<li><div><a href="#"><img src="image/p3.jpg" width="80px" height="80px;"></a></div>
+								<div>
+									<div>珀莱雅美白油</div>
+									<div>珀莱雅</div>
+									<div class="price">￥389.00</div>
+								</div>
+							</li>
+							<li><div><a href="#"><img src="image/p3.jpg" width="80px" height="80px;"></a></div>
+								<div>
+									<div>珀莱雅美白油</div>
+									<div>珀莱雅</div>
+									<div class="price">￥389.00</div>
+								</div>
+							</li>
+							<li><div><a href="#"><img src="image/p3.jpg" width="80px" height="80px;"></a></div>
+								<div>
+									<div>珀莱雅美白油</div>
+									<div>珀莱雅</div>
+									<div class="price">￥389.00</div>
+								</div>
+							</li>
+							<li><div><a href="#"><img src="image/p3.jpg" width="80px" height="80px;"></a></div>
+								<div>
+									<div>珀莱雅美白油</div>
+									<div>珀莱雅</div>
+									<div class="price">￥389.00</div>
+								</div>
+							</li>
+							<li><div><a href="#"><img src="image/p3.jpg" width="80px" height="80px;"></a></div>
+								<div>
+									<div>珀莱雅美白油</div>
+									<div>珀莱雅</div>
+									<div class="price">￥389.00</div>
+								</div>
+							</li>
+							<li><div><a href="#"><img src="image/p3.jpg" width="80px" height="80px;"></a></div>
+								<div>
+									<div>珀莱雅美白油</div>
+									<div>珀莱雅</div>
+									<div class="price">￥389.00</div>
+								</div>
+							</li>
+							<li><div><a href="#"><img src="image/p3.jpg" width="80px" height="80px;"></a></div>
+								<div>
+									<div>珀莱雅美白油</div>
+									<div>珀莱雅</div>
+									<div class="price">￥389.00</div>
+								</div>
+							</li>
+							<li><div><a href="#"><img src="image/p3.jpg" width="80px" height="80px;"></a></div>
+								<div>
+									<div>珀莱雅美白油</div>
+									<div>珀莱雅</div>
+									<div class="price">￥389.00</div>
+								</div>
+							</li>
+							<li><div><a href="#"><img src="image/p3.jpg" width="80px" height="80px;"></a></div>
+								<div>
+									<div>珀莱雅美白油</div>
+									<div>珀莱雅</div>
+									<div class="price">￥389.00</div>
+								</div>
+							</li>
+							<li><div><a href="#"><img src="image/p3.jpg" width="80px" height="80px;"></a></div>
+								<div>
+									<div>珀莱雅美白油</div>
+									<div>珀莱雅</div>
+									<div class="price">￥389.00</div>
+								</div>
+							</li>
+							<li><div><a href="#"><img src="image/p3.jpg" width="80px" height="80px;"></a></div>
+								<div>
+									<div>珀莱雅美白油</div>
+									<div>珀莱雅</div>
+									<div class="price">￥389.00</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+
+			<script type="text/javascript" src="jquery.js"></script>
+			<script type="text/javascript">
+			var i=0;
+			var stop;
+			/*	每隔2秒运行一次轮播*/
+			stop=setInterval(function(){
+				i++;
+				if(i>6){
+					i=1;
+				}
+				xiaoguo2(i);
+				xiaoguo(i);
+			},4000)
+			/*	动作函数*/
+			function xiaoguo2(n){
+			/*		块一*/
+				$('.fugai1')
+				.css({"background-image":"url(image/lunbo"+n+".jpg)",'background-repeat':'no-repeat','display':'block',"backgroundPosition-x":0+'px'})
+				.animate({"backgroundPosition-x":-730+'px'},3000)
+				.css({'display':'none'})
+				//块二
+				$('.fugai2')
+				.css({"background-image":"url(image/lunbo"+n+".jpg)",'background-repeat':'no-repeat','display':'block',"backgroundPosition-x":-200+'px'})
+				.animate({"backgroundPosition-x":-730*2+'px'},3000)
+				.animate({'display':'none'})
+				//块三
+				$('.fugai3')
+				.css({"background-image":"url(image/lunbo"+n+".jpg)",'background-repeat':'no-repeat','display':'block',"backgroundPosition-x":0+'px'})
+				.animate({"backgroundPosition-x":-730*3+'px'},3000)
+				.animate({'display':'none'})
+			/*		$('.fugai')
+				.css({"background-image":"url(image/lunbo"+n+".jpg)",'background-repeat':'no-repeat','display':'block',"backgroundPosition-x":0+'px'})
+				.deplay(3000).animate({"backgroundPosition-x":-730*3+'px'},3000)
+				.animate({'display':'none'},10)		*/
+			}
+			$('.list-li>li').eq(0).css({'background-color':'orange'})
+			function xiaoguo(n){
+				var b=n-1;	
+				$('.list-li>li').css({'background-color':'#F9263E'})	
+				$('.list-li>li').eq(b).css({'background-color':'orange'})
+				$('.dian').animate({'width':730+'px'},2000)
+				$('.dian').animate({'width':0+'px'},100)
+				$('.box').animate({'margin-left':-n*730+'px'},2000,function(){
+					if(n==6){
+						$('.box').css({'margin-left':0+'px'})
+					}
+				})
+			}
+			/*	左右按钮*/
+			function huan(n){
+				var j=i;
+				i=i+n;
+				
+				if(i>6){
+					i=1;
+				}
+				if(i<0){
+					i=5;
+				}
+				xiaoguo(i);
+			}
+			//左箭头
+			$('.btn-l').click(function(){
+			clearInterval(stop);
+				stop=null;			
+					huan(-1);	
+					if(i==0){
+						$('.btn-con-l').html('<img src="image/lunbo'+parseInt(6)+'.jpg">')
+					}else{
+						$('.btn-con-l').html('<img src="image/lunbo'+parseInt(i)+'.jpg">')
+					}
+					$('.box').stop(true,true);
+					$('.dian').stop(true,true);
+					
+			});
+			//右箭头
+			$('.btn-r').click(function(){
+				clearInterval(stop);
+				stop=null;
+					huan(1);			
+					if(i==5){
+						$('.btn-con-r').html('<img src="image/lunbo'+parseInt(1)+'.jpg">')
+					}else if (i==6) {
+						$('.btn-con-r').html('<img src="image/lunbo'+parseInt(2)+'.jpg">')
+					}else{
+						$('.btn-con-r').html('<img src="image/lunbo'+parseInt(i+2)+'.jpg">')
+					}
+					$('.box').stop(true,true);
+					$('.dian').stop(true,true);
+			});
+			$('.lunbo').mouseover(function(){
+				clearInterval(stop);
+				stop=null;
+				$('.btn').show();
+
+			})
+			/*	鼠标离开大块*/
+			$('.lunbo').mouseout(function(){
+				if(stop==null){
+					stop=setInterval(function(){
+						i++;
+						if(i>6){
+							i=1;
+						}
+						xiaoguo(i);
+						xiaoguo2(i);
+					},4000)			
+				}
+				$('.btn').hide();
+				$('.btn-con-l').text('');
+				$('.btn-con-r').text('');
+			})
+			/*按钮小标题*/
+			$('.list-li>li').mouseover(function(){		
+				clearInterval(stop);
+				stop=null;
+				i= Number($(this).text());
+				xiaoguo($(this).text())
+				$('.box').stop(true,true);
+				$('.dian').stop(true,true);
+			})
+
+			</script>
+			
+		</div>
+		<!-- 网站脚部 -->
+		<div class="pagefooter">
+			<div class="footnav" >
+				<ul style="margin-left: 100px;">
+					<li class="listnav">
+						<h4>关于我们</h4>
+						<ul>
+							<li><a href="#">发展经历</a></li>
+							<li><a href="#">企业介绍</a></li>
+							<li><a href="#">发展经历</a></li>
+							<li><a href="#">企业技术</a></li>
+						</ul>
+					</li>
+					<li class="listnav">
+						<h4>付款方式</h4>
+						<ul>
+							<li><a href="#">发展经历</a></li>
+							<li><a href="#">企业介绍</a></li>
+							<li><a href="#">发展经历</a></li>
+							<li><a href="#">企业技术</a></li>
+						</ul>
+					</li>
+					<li class="listnav">
+						<h4>送货方式</h4>
+						<ul>
+							<li><a href="#">发展经历</a></li>
+							<li><a href="#">企业介绍</a></li>
+							<li><a href="#">发展经历</a></li>
+							<li><a href="#">企业技术</a></li>
+						</ul>
+					</li>
+					<li class="listnav">
+						<h4>关于我们</h4>
+						<ul>
+							<li><a href="#">发展经历</a></li>
+							<li><a href="#">企业介绍</a></li>
+							<li><a href="#">发展经历</a></li>
+							<li><a href="#">企业技术</a></li>
+						</ul>
+					</li>
+					<li class="listnav">
+						<h4>关于我们</h4>
+						<ul>
+							<li><a href="#">发展经历</a></li>
+							<li><a href="#">企业介绍</a></li>
+							<li><a href="#">发展经历</a></li>
+							<li><a href="#">企业技术</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
